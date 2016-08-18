@@ -1,4 +1,4 @@
-textgame
+Slist
 ========
 
-it i s a text game in which user will enter directions.
+Child of in-built list, but supports sorting of all object types according to size of object.
