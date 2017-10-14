@@ -1,7 +1,7 @@
 from Slist import *
 
 def list_Check(x):
-    li = Slist(x)
+    li = slist(x)
     return li
 
 def test_answer():
