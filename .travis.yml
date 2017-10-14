@@ -11,4 +11,4 @@ before_script:
 script:
   - pytest
 after_success:
-  - coverage run --source=my_package setup.py test
+  - coverage run --source=test_Slist.py
