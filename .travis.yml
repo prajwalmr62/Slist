@@ -9,9 +9,8 @@ python:
   - "nightly"
 before_script:
   - pip install coveralls
-  - coverage run --source=mypkg setup.py test
-  - coveralls
+  - coverage run --source= test_Slist.py
 script:
   - pytest
 after_success:
-  - coveralls
+  - coverage run --source=my_package setup.py test
