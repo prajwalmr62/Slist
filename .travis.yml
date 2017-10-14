@@ -1,5 +1,4 @@
 language: python
-repo_token: M39m4X03sxZqHYmwkOHtgWZhWAFUuoX9Y
 python:
   - "3.5"
   - "3.5-dev" # 3.5 development branch
@@ -9,7 +8,6 @@ python:
   - "nightly"
 before_script:
   - pip install coveralls
-  - coverage run --source= test_Slist.py
 script:
   - pytest
 after_success:
