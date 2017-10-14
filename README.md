@@ -1,6 +1,8 @@
 Slist
 ========
 
+[![Build Status](https://travis-ci.org/prajwalmr62/Slist.svg?branch=master)](https://travis-ci.org/prajwalmr62/Slist)
+
 Child of in-built list, but supports sorting of all object types according to size of object.
 
 Modifications: 
