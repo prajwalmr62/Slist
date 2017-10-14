@@ -8,10 +8,9 @@ python:
   - "3.7-dev" # 3.7 development branch
   - "nightly"
 before_script:
-  - git clone https://github.com/z4r/python-coveralls-example.git
-  - cd python-coveralls-example
-  - git checkout -qf 17b8119796516195527dcb4f454a2ebd41d60244
-  - cd -
+  - pip install coveralls
+  - coverage run --source=mypkg setup.py test
+  - coveralls
 script:
   - pytest
 after_success:
