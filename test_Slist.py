@@ -1,4 +1,5 @@
-import Slist
+from Slist import *
+
 def list_Check(x):
     li = Slist(x)
     return li
