@@ -5,4 +5,4 @@ def list_Check(x):
     return li
 
 def test_answer():
-    assert list_Check([1,1.2,3]) == [1,3,1.2]
+    assert list_Check([1,3,2]) == [1,2,3]
